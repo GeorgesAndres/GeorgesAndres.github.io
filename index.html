@@ -4,55 +4,236 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Georges Andres</title>
-  <meta name="description" content="Georges Andres — personal and professional website." />
+  <meta name="description" content="Georges Andres — co-founder of Mantias, pharmaceutical supply-chain intelligence grounded in peer-reviewed research." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Georges Andres" />
+  <meta property="og:description" content="Co-founder &amp; CTO of Mantias, mapping global pharmaceutical supply chains before they fail. Grounded in a 2025 Science paper on supply-chain vulnerabilities." />
+  <meta property="og:url" content="https://andres.swiss/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Georges Andres" />
+  <meta name="twitter:description" content="Co-founder &amp; CTO of Mantias, mapping global pharmaceutical supply chains before they fail. Grounded in a 2025 Science paper." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="188519b8-520e-41c5-888f-4aefd6950d7c"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <nav class="container">
       <a class="brand" href="#top">Georges Andres</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
+        <li><a href="#mantias">Mantias</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section id="top" class="hero container">
-      <h1>Georges Andres</h1>
-      <p class="tagline">Add a short tagline about what you do here.</p>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Co-founder &amp; CTO, Mantias</p>
+          <h1>Georges Andres</h1>
+          <p class="tagline">
+            Researcher in complex systems and networks, translating published
+            science into <a href="https://mantias.ch" target="_blank" rel="noopener">Mantias</a> —
+            supply-chain intelligence for the pharmaceutical industry.
+          </p>
+          <p class="hero-meta">Zürich, CH <span aria-hidden="true">·</span> PhD, ETH Zürich, 2024</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://mantias.ch" target="_blank" rel="noopener">Visit mantias.ch →</a>
+            <a class="btn btn-ghost" href="#contact">Media &amp; investor inquiries</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="georges.jpg" alt="Portrait of Georges Andres" width="432" height="540" />
+          <ul class="icon-links">
+            <li>
+              <a href="mailto:georges@mantias.ch" aria-label="Email">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://ch.linkedin.com/in/georges-andres-a06ab224a" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.446-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/GeorgesAndres" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=T6YZjM0AAAAJ&hl=de" target="_blank" rel="noopener" aria-label="Google Scholar">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section id="about" class="container">
+    <section id="about" class="container section">
       <h2>About</h2>
-      <p>A short bio goes here. Talk about your background, what you work on, and what you're interested in.</p>
+      <div class="about-grid">
+        <p class="measure">
+          I work on complex systems and networks. My focus is how
+          structure and timing, who interacts with whom, when, and how
+          often, shape the behavior of large systems, from social groups
+          to supply networks.
+          My background is in physics and data science. I co-founded
+          Mantias to turn that work into supply-chain intelligence for the
+          pharmaceutical sector.
+        </p>
+        <dl class="about-facts">
+          <div class="about-fact">
+            <dt>Education</dt>
+            <dd>PhD, ETH Zürich (2024) — ETH Medal</dd>
+          </div>
+          <div class="about-fact">
+            <dt>Postdoc</dt>
+            <dd>ETH Zürich</dd>
+          </div>
+          <div class="about-fact">
+            <dt>Role</dt>
+            <dd>Co-founder &amp; CTO, Mantias</dd>
+          </div>
+        </dl>
+      </div>
     </section>
 
-    <section id="work" class="container">
-      <h2>Work</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Project one</h3>
-          <p>Short description of a project or piece of work.</p>
+    <section id="mantias" class="section-mantias">
+      <div class="container">
+        <div class="mantias-panel">
+          <p class="eyebrow eyebrow-on-panel">The company</p>
+          <h2>Mantias</h2>
+          <p class="pull-quote">&ldquo;Know your supply chain. <span class="nowrap">Before it fails.&rdquo;</span></p>
+          <div class="mantias-body">
+            <p class="measure">
+              Mantias builds a digital twin of global pharmaceutical
+              manufacturing, mapping supplier networks at the factory and
+              production-step level so companies and regulators can spot
+              vulnerabilities before they turn into disruptions and
+              financial losses. It grew directly out of our 2025
+              <em>Science</em> paper on
+              supply-chain vulnerabilities in critical medicines, founded
+              together with colleagues in economics and complex systems.
+            </p>
+            <div class="mantias-stat">
+              <span class="stat-value">90+</span>
+              <span class="stat-label">jurisdictions mapped</span>
+            </div>
+          </div>
+          <div class="mantias-actions">
+            <a class="btn btn-primary" href="https://mantias.ch" target="_blank" rel="noopener">Visit mantias.ch →</a>
+            <a class="btn btn-ghost-on-panel" href="#contact">Press &amp; investor contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="container section section-compact">
+      <h2>Research</h2>
+      <p class="lead">
+        Mantias is grounded in real, published network science. This is the research behind it.
+      </p>
+      <div class="research-grid">
+        <article class="research-item">
+          <h3>Complex systems &amp; networks</h3>
+          <p>How structure and interdependence shape the resilience and fragility of large systems, from social groups to supply networks.</p>
         </article>
-        <article class="card">
-          <h3>Project two</h3>
-          <p>Short description of a project or piece of work.</p>
+        <article class="research-item">
+          <h3>Networks that change over time</h3>
+          <p>Modeling how connections form and evolve, even when the underlying data is sparse or noisy.</p>
+        </article>
+        <article class="research-item">
+          <h3>Supply chain resilience</h3>
+          <p>Mapping production networks to find vulnerabilities before they become shortages. This work is the foundation of Mantias.</p>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="container">
+    <section id="publications" class="container section section-compact">
+      <h2>Publications</h2>
+      <ol class="pub-list">
+        <li class="pub-highlight">
+          <div class="pub-line">
+            <span class="pub-title">Supply-chain vulnerabilities in critical medicines</span>
+            <span class="pub-badge">Underlies Mantias</span>
+          </div>
+          <span class="pub-meta">Casiraghi, Andres, Schweitzer, Verginer — <em>Science</em>, 2025</span>
+        </li>
+        <li>
+          <span class="pub-title">Empirical networks are sparse: Enhancing multiedge models with zero-inflation</span>
+          <span class="pub-meta">Casiraghi &amp; Andres — <em>PNAS Nexus</em>, 2025</span>
+        </li>
+        <li>
+          <span class="pub-title">Reconstructing signed relations from interaction data</span>
+          <span class="pub-meta">Andres, Casiraghi, Vaccario, Schweitzer — <em>Scientific Reports</em>, 2023</span>
+        </li>
+        <li>
+          <span class="pub-title">Social nucleation: Group formation as a phase transition</span>
+          <span class="pub-meta">Schweitzer &amp; Andres — <em>Physical Review E</em>, 2022</span>
+        </li>
+        <li>
+          <span class="pub-title">Modeling social resilience: Questions, answers, open problems</span>
+          <span class="pub-meta">Schweitzer, Andres, Casiraghi, et al. — <em>Advances in Complex Systems</em>, 2022</span>
+        </li>
+      </ol>
+      <p class="muted">
+        <a href="https://scholar.google.com/citations?user=T6YZjM0AAAAJ&hl=de" target="_blank" rel="noopener">Full list on Google Scholar →</a>
+      </p>
+    </section>
+
+    <section id="contact" class="container section section-compact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:hello@andres.swiss">hello@andres.swiss</a></p>
+      <ul class="contact-icons">
+        <li>
+          <a href="mailto:georges@mantias.ch">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <span>georges@mantias.ch <span class="muted">(professional)</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:geandres@ethz.ch">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            <span>geandres@ethz.ch <span class="muted">(academic)</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://ch.linkedin.com/in/georges-andres-a06ab224a" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.446-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn <span class="visually-hidden">(opens in new tab)</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/GeorgesAndres" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            <span>GitHub <span class="visually-hidden">(opens in new tab)</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=T6YZjM0AAAAJ&hl=de" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/></svg>
+            <span>Google Scholar <span class="visually-hidden">(opens in new tab)</span></span>
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Georges Andres</p>
+      <p>© <span id="year"></span> Georges Andres</p>
     </div>
   </footer>
 
