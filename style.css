@@ -397,6 +397,25 @@ h2 {
   padding: 2.5rem;
 }
 
+.mantias-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.mantias-top h2 {
+  margin-bottom: 0;
+}
+
+.mantias-mark {
+  width: 2.75rem;
+  height: auto;
+  flex-shrink: 0;
+  color: var(--on-dark);
+}
+
 .eyebrow-on-panel {
   color: var(--accent);
 }
